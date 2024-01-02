@@ -1,0 +1,12 @@
+:host{
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+}
+  /* whenerve what target the coustom  element */
+:host(.active){
+    border-color: red;
+}
