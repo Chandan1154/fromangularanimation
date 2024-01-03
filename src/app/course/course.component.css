@@ -1,3 +1,29 @@
+:host-context(.parent-1)  {
+  display: block;
+  background-color: red;
+  border: 2px solid green;
+} 
+
+/* :host /deep/ div{
+  color: yellow;
+} */
+
+
+:host >>> div{
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* :host{
     display: inline-block;
     padding: 30px;
@@ -29,4 +55,6 @@ host-context you Know the parent element have to target it then you should  use 
   color: blue;
   background-color: red;
   border: 2px solid green;
-} */
+} 
+
+*/
