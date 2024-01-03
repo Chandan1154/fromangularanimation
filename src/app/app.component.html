@@ -1,3 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link " routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+            routerLink="/">Course</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLinkActive="active" routerLink="/author">Users</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- <div>
   <h1>Angular web dev</h1>
   <button class="btn  btn-success ">Add</button>
@@ -10,7 +49,7 @@
 <!-- <app-course>
   <h2>Angular Animation</h2>
 </app-course> -->
-<div class="parent-1">
+<!-- <div class="parent-1">
   <div>
     <app-course class="isactive"></app-course>
   </div>
@@ -18,4 +57,4 @@
 
 <div class="parent-2">
   <app-course></app-course>
-</div>
+</div> -->
